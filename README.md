@@ -2,6 +2,8 @@
 # December 2017
 #
 
+Version 003 - December 9, 2017 - Added check time print for Timed Modes - changed to 5 minutes for Slow Timed Mode<BR>
+
 This is a simulator designed to help test systems using the SwitchDoc Labs Thunder Board Lightning Detector based on the AS3935<BR>
 
 ### Functions

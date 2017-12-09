@@ -36,7 +36,7 @@
   DEALINGS IN THE SOFTWARE.
 * **************************************************************************/
 
-#define SOFTWAREVERSION "002"
+#define SOFTWAREVERSION "003"
 
 // I2C library - standard Wire lib
 #include "Wire.h"
@@ -312,7 +312,8 @@ void loop()
 
       if (millis() > checkTime)  // time to do our stuff
       {
-
+        Serial.print("checkTime=");
+        Serial.println(checkTime);
         switch (timedState)
         {
           case SINGLESTRIKEMODE:
